@@ -1,5 +1,6 @@
 notas.txt
 yarn.lock
+package-lock.json
 
 ### Node ###
 # Logs

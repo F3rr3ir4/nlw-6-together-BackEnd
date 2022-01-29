@@ -1,4 +1,8 @@
-import express from "express";
+import  "reflect-metadata";
+
+import express, { request, response } from "express";
+import "./database";
+
 
 const app = express();
 
