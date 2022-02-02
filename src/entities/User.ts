@@ -1,8 +1,8 @@
 import {
-  Entity, 
-  PrimaryColumn, 
-  Column, 
-  CreateDateColumn, 
+  Entity,
+  PrimaryColumn,
+  Column,
+  CreateDateColumn,
   UpdateDateColumn,
 } from "typeorm";
 import {v4 as uuid} from "uuid"
@@ -14,16 +14,16 @@ class User {
 
   @Column()
   name: string;
-  
+
   @Column()
   email: string;
-  
+
   @Column()
   admin: boolean;
-  
+
   @CreateDateColumn()
   created_at: Date;
-  
+
   @UpdateDateColumn()
   updated_at: Date;
 
